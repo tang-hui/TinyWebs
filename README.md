@@ -13,10 +13,8 @@ A C++ Tiny Web Server
 *版本2：Reactor 模式 
 
 参考： 
+ 1. Moduo 源码 
+ 2. Moduo 网络库使用手册 
+ 3. 陈硕老师的Blog
 
-Moduo 源码 
-
-Moduo 网络库使用手册 
-
-陈硕老师的Blog
 
