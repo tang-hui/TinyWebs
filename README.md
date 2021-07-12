@@ -6,12 +6,13 @@
 
 多线程版本：
 
-*版本1：proactor 模式*
+*__版本1：proactor 模式__*
 
 参考：
  1. Linux高性能服务器编程”
 
-*版本2：Reactor 模式* 
+
+*__版本2：Reactor 模式__* 
 
 参考： 
  1. Moduo 源码 
