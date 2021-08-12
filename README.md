@@ -2,8 +2,8 @@
 
 **A C++ Tiny Web Server**
 ## 已完成
- +基本的TCP被动连接库
- +简易的HTTP服务器，可以访问主页HTML
+ + 基本的TCP被动连接库
+ + 简易的HTTP服务器，可以访问主页HTML
 ***
 
 ## 版本：
