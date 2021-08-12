@@ -9,7 +9,10 @@
 ## 技术
 + 主从Reactor模式：
     - 主Reactor负责监听连接(被动连接)，当有新的连接，accept到新的socket后，使用 Round Robin 方法下发给从Reactor
-    - 从Reactor负责三种事件：1、负责管理事件描述符(timefd处理定时任务) 2、事件描述符(eventfd用于唤醒IO线程) 3、派发下来的socket文件描述符
+    - 从Reactor负责三种事件：  
+        1、负责管理事件描述符(timefd处理定时任务)  
+        2、事件描述符(eventfd用于唤醒IO线程)  
+        3、派发下来的socket文件描述符
 + multiple Reactors + thread pool (one loop per thread + thread pool)；
 + EventLoop：使用 Epoll 水平触发的模式结合非阻塞 IO；
 + 线程池：
